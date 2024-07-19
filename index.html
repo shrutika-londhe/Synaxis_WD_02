@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <form action="" id="form">
+    <h1 class="">Contact us</h1>
+        <div class="input-group">
+        <label for="fname">Full Name
+        <input type="text" name="name" id="fname" required>
+        </label>
+    </div>
+    
+    <div class="input-group">
+    <label for="mail">Email id
+        <input type="email" name="mail" id="email" required>
+    </label>
+    </div>
+   
+    <div class="input-group">
+    <label for="phno">Phone number
+        <input type="tel" name="number" id="phno">
+    </label>
+</div>
+
+<div class="input-group">
+    EventName
+    <select name="eventname">
+        <option value="">Event 1</option>
+        <option value="">Event 2</option>
+        <option value="">Event 3</option>
+        <option value="">Event 4</option>
+        <option value="">Event 5</option>
+    </label>
+    </select>
+    </div>
+
+    Preferred Date and Time
+   <div class="input-group">
+    <label for="datetime">
+        <input type="datetime-local" name="datepre" id="datetime">
+    </label>
+</div>
+
+<div class="input-group">
+    <label for="msg">Message/Additional Information
+        <textarea name="msg" id="msg"></textarea>
+    </label>
+</div>
+
+<div class="input-group">
+    How Did You Hear About Us
+    <select name="referral_source"> 
+        <option value="social_media">Social Media</option> 
+        <option value="website">Website</option> 
+        <option value="friend">Friend</option> 
+    </select>
+</div>
+
+
+    <label for="add">
+        <input type="checkbox" name="terms_agreement" required>
+         I agree to the terms and conditions
+    </label>
+
+   
+<br>
+    <label for="sub">
+        <input type="checkbox" name="sub" id="sub">
+        Subscribe to Newsletter/Updates
+    </label>
+
+   <button type="submit">Submit</button>
+    </form>
+    
+</div>
+</body>
+</html>
